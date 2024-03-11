@@ -1,4 +1,4 @@
-// const app = require('./app.js')
+const app = require('./app.js')
 // console.log(app);
 // const http = require("http");
 // http.createServer((req,resp)=>{
@@ -14,6 +14,6 @@
 //   resp.end();
 // };
 // http.createServer(dataControl).listen(3000);
-let chalk =require('chalk')
+let chalk = require('chalk')
 // console.log('hello',chalk.colorNames[red,green,yellow]);
 console.log(chalk.blue('Hello world!'));
